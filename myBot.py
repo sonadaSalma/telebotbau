@@ -4608,13 +4608,17 @@ def send_text(message):
                 print("API Error:", e)
 
 
-
+"""
 from threading import Thread
 from run_waitress import serve_flask_app  # Import the function from your Waitress script
 
 # Your Flask application and Waitress setup
 if __name__ == '__main__':
-    Thread(target=serve_flask_app).start()
+    Thread(target=serve_flask_app).start()"""
+# Python example (Flask)
+from os import getenv
+app.run(host="0.0.0.0", port=int(getenv("PORT", 5000)))
+
     
 bot.infinity_polling()
 
