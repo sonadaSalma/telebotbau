@@ -4615,8 +4615,12 @@ from run_waitress import serve_flask_app  # Import the function from your Waitre
 # Your Flask application and Waitress setup
 if __name__ == '__main__':
     Thread(target=serve_flask_app).start()"""
+
 # Python example (Flask)
+from flask import Flask
 from os import getenv
+from threading import Thread
+app = Flask(__name__)
 app.run(host="0.0.0.0", port=int(getenv("PORT", 5000)))
 
     
