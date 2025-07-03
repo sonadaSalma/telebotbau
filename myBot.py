@@ -6,7 +6,6 @@ Created on Sun May 29 11:42:25 2022
 """
 #from bottle import run, post,response,request as bottle_request  
 
-from key import API_KEY
 import telebot 
 from DBMS import add_user,setup,numOfUsers,get_user,fetch_ID,export_to_csv
 #from telebot import types
@@ -14,7 +13,7 @@ from telebot.types import KeyboardButton,ReplyKeyboardMarkup,ReplyKeyboardRemove
 
 #from pydbhelper import DBHelper
 
-bot = telebot.TeleBot(API_KEY)
+bot = telebot.TeleBot("YOUR_TOKEN_HERE")
 
 
 """db=DBHelper()
