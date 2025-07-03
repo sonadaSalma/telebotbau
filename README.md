@@ -20,8 +20,8 @@
 
 ## 📚 التقنيات المستخدمة:
 
-* Python 3.
-* Library
+* Python 3.9.7
+* pyTelegramBotAPI Library
 * GitHub Actions (لتشغيل البوت مجانًا سابقًا)
 * Replit / PythonAnywhere / Railway (محاولات استضافة سابقة)
 
@@ -29,18 +29,18 @@
 
 ## 🚀 كيف تشغّل Aka محليًا:
 
-1. تأكد من تنصيب Python 3.x على جهازك.
+1. تأكد من تنصيب Python 3.9.7 على جهازك.
 2. ثبّت المكتبات المطلوبة:
 
    ```bash
-   pip install python-telegram-bot
+   pip install pyTelegramBotAPI 
    ```
 3. أنشئ بوت جديد عبر BotFather في تليجرام واحصل على الـ **Bot Token**.
 4. عدّل الكود وضع التوكن الخاص بك بدلًا من `YOUR_TOKEN_HERE`.
 5. شغّل الملف الرئيسي:
 
    ```bash
-   python main.py
+   python myBot.py
    ```
 
 ---
@@ -59,7 +59,7 @@
 
 * فاطة المحاميد
 * دانيا آل سيف
-* عميد الكلية صهيب القضاة
+* صهيب القضاة
 * وكل الزملاء والطلاب الذين ساهموا بالأفكار أو بالتشجيع.
 
 ---
